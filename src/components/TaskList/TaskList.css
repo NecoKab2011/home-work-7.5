@@ -1,0 +1,54 @@
+.task-title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.task-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  height: 30px;
+  width: 200px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.task-submit {
+  height: 35px;
+  padding: 0 10px;
+  background-color: green;
+  color: #e9e5fb;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.task-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9e5fb;
+  width: 400px;
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: 2px solid rgb(166, 165, 165);
+}
+
+.task-delete-btn {
+  background-color: crimson;
+  color: #e9e5fb;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
